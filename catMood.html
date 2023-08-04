@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let students = [
+            {
+                name : 'mukhtaar',
+                class : 2,
+                cities : ['zaria', 'yobe'],
+            },
+                        {
+                name : 'kayode',
+                class : 3,
+                cities : ['ibadan', 'kaduna'],
+            },
+            {
+                name : 'kemi',
+                class : 6,
+                cities : ['abuja', 'kano'],
+            }
+
+        ]
+         
+        let cityArray = []
+    for ( let student of students){
+        // console.log(student);
+        for (let city of student.cities){
+            cityArray.push(city);
+        }
+        
+    console.log(cityArray);
+    }
+    
+            
+        
+    </script>
+</body>
+</html>
